@@ -1,0 +1,14 @@
+version: '3'
+services:
+  java:
+    build:
+      context: ./movies-service
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+  python:
+    build:
+      context: ./movie-blog-service
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
