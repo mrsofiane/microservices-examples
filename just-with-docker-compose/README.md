@@ -4,7 +4,7 @@
 In this example i tried to go from the bottom, and communicate my services without any other
 third party.
 
-![Architecture of application](images/diagram-of-services.png "Architecture of application")
+![Architecture of application](../images/diagram%20of%20services.png "Architecture of application")
 
 
 ### Movies-Service
